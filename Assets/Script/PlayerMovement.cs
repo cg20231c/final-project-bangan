@@ -27,6 +27,6 @@ public class PlayerMovement : MonoBehaviour
             transform.right * moveSide * speed;
 
         rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, rb.velocity.z);
-    }
+    }
 
 }
